@@ -8,15 +8,9 @@
 /* row */
 .row{position: relative;
     margin: 0 15px;padding:15px 0;
+    border-bottom: 1px solid #EBEBEB;
 }
 
-
-/* line */
-.line{
-
-    height: 1px;
-    background-color: #EBEBEB;
-}
 
 
 /* header */
@@ -54,14 +48,51 @@ font-size: 32px;
 
 /* //header */
 
-/* besetM */
+/* music */
 section{}
+
+
+
+/* besetM */
+
 section .bestM .best{}
 section .bestM .best .best-title{margin-bottom: 15px;}
 section .bestM .best .best-title .bt-stit{color:#F05F5F;font-size: 12px;}
 section .bestM .best .best-title .bt-title{font-size: 18px;color: #242424;font-weight: 600;padding-bottom: 3px;}
 section .bestM .best .best-title .bt-desc{color: #A8AEB6;font-size: 20px;font-weight:300;}
 
+/* recentM */
+
+section .recentM{}
+section .recentM h2{font-size: 20px;font-weight: 600;color: #242424;margin-bottom: 15px;}
+section .recentM .recent_wrap{display: flex;}
+section .recentM .recent{}
+section .recentM .recent picture{display:block;margin-bottom: 15px;width: 180px;height: 180px;}
+section .recentM .recent .recent-title .rc-title{color:#242424;font-size: 16px;margin-bottom:5px;font-weight: 600;}
+section .recentM .recent .recent-title .rc-stit {color: #A8AEB6;font-weight: 400;}
+
+/* nextM */
+
+section .nextM{}
+section .nextM h2{font-size: 20px;font-weight: 600;color: #242424;margin-bottom: 15px;}
+section .nextM .next_wrap{}
+section .nextM .next_wrap .next{display: flex;margin-bottom:15px;position: relative;align-items: center;padding-bottom: 15px;}
+section .nextM .next_wrap .next .next_img{min-width:100px;margin-right: 15px;}
+section .nextM .next_wrap .next .next_txt{max-width: 200px;}
+section .nextM .next_wrap .next .next_txt .nt-stit{display: block;color:#F05F5F;font-size: 12px;margin-bottom:5px;}
+section .nextM .next_wrap .next .next_txt .nt-title{font-size: 16px;color: #242424;font-weight: 600;margin-bottom:10px;}
+section .nextM .next_wrap .next .next_txt .nt-desc{color: #A8AEB6;font-size:12px;font-weight:300;overflow: hidden;
+text-overflow: ellipsis;display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient:vertical /* 2줄효과 + ...으로 표현 */
+}
+section .nextM .next_wrap .next::after{
+    content: "";
+    position: absolute;
+    right:0;
+    bottom:0;
+    width:calc(100% - 115px);
+      height: 1px;
+    background-color: #EBEBEB;
+}
 
 
 
