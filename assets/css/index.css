@@ -98,7 +98,7 @@ section .nextM .next_wrap .next::after{
 
 
 /* play */
-.playM{height: 100px;background-color: #f9f9f9;color:#242424}
+.playM{height: 100px;background-color: #f9f9f9;color:#242424;margin-bottom: 15px;}
 .playM .row{border-bottom: 0;}
 .playM .play{display: flex;align-items: center;}
 .playM .play .play_album{width: 60px;height: 60px;margin-right: 15px;}
@@ -107,11 +107,11 @@ section .nextM .next_wrap .next::after{
 .playM .play .play_txt .play_title{margin-bottom: 5px;font-weight: 600;font-size: 16px;}
 .playM .play .play_txt .play_stit{font-size: 14px;font-weight:300;}
 
-.playM .play .play_btn{}
-.playM .play .play_btn .play_btn_play{text-indent: -9999;}
-.playM .play .play_btn .play_btn_next{}
+.playM .play .play_btn{position: absolute;right:0;}
+.playM .play .play_btn .play_btn_play{display: inline-block;width: 36px;height: 36px;cursor: pointer;background: url(../img/play_btn.png);}
+.playM .play .play_btn .play_btn_next{display: inline-block;width: 36px;height: 36px;cursor: pointer;background: url(../img/next_btn.png);}
 
-
+.bottom{}
 
 /* media */
 @media (max-width:1020px){
