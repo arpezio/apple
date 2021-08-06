@@ -1,0 +1,74 @@
+/* container */
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+     
+}
+
+/* row */
+.row{position: relative;
+    margin: 0 15px;padding:15px 0;
+}
+
+
+/* line */
+.line{
+
+    height: 1px;
+    background-color: #EBEBEB;
+}
+
+
+/* header */
+#header{}
+
+#header nav {height: 50px;}
+
+#header .header-data {
+font-size: 14px;
+font-weight: 400;
+display: block;
+margin-bottom: 15px;
+color: #A8A8A8;
+}
+
+#header .header-title{
+font-family: SFNS Display;
+font-weight: 600;
+font-size: 32px;
+}
+
+#header .header-id{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    right: 0;
+    top:50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    background: url(../img/profile_img.png);
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid rgb(82, 76, 76);
+}
+
+/* //header */
+
+/* besetM */
+section{}
+section .bestM .best{}
+section .bestM .best .best-title{margin-bottom: 15px;}
+section .bestM .best .best-title .bt-stit{color:#F05F5F;font-size: 12px;}
+section .bestM .best .best-title .bt-title{font-size: 18px;color: #242424;font-weight: 600;padding-bottom: 3px;}
+section .bestM .best .best-title .bt-desc{color: #A8AEB6;font-size: 20px;font-weight:300;}
+
+
+
+
+/* media */
+@media (max-width:1020px){
+    .container{
+       width: 100%;
+             }
+}
+
